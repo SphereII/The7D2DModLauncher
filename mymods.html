@@ -1,0 +1,226 @@
+<HTML>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>7D2D Launcher</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+        <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">The 7 Days To Die Launcher</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="players.html">Players</a></li>
+					<li><a href="mymods.html">My Mods</a></li>
+                    <li><a href="admins.html">Admins</a></li>
+					<li><a href="modders.html">Modders</a></li>
+					<li><a href="https://7d2dlauncher.blob.core.windows.net/installer/7D2DLauncher.application">Download</a></li>
+				</ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('images/background2.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>My Mods</h2>
+                </div>
+            </div>
+        </div>
+
+	</header>
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+ 
+                <ol class="breadcrumb">
+                    <li><a href="index.php">Home</a>
+                    </li>
+                    <li class="active">My Mods</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+           <!-- Service Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">My Mods</h2>
+            </div>
+            <div class="col-lg-12">
+
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-shield"></i> What are My Mods?</a>
+                    </li>
+                    <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-shield"></i> How do I use My Mods?</a>
+                    </li>
+                    <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-shield"></i> I am a Modder. How can I provide a package for My Mods?</a>
+                    </li>
+                </ul>
+				<br>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="service-one">
+                        <h4>What are My Mods?</h4>
+						<p>My Mods is a concept created because of the wide availability of various mods. Modders have been producing many unique mods that are interesting to explore in single player instances. However, with such creative freedoms, comes the invevitable breakdown of any standards. Zip files are packaged differently from one release to another, using a variety of download hosts, and with different installation instructions.</p>
+						<p>My Mods attempts to standardize mod releases to make it easier for players to play on the latest mods, without having to jump through hoops or risking other modded files.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="service-two">
+                        <h4>How do I use My Mods</h4>
+						<p>In the Server / Mod Select screen, right click and choose "Add My Mod".<p>
+						<p>Enter in a unique My Server Name, and optionally, add a My Server Description.<p>
+						<p>Click on Add New Download Link, and copy and paste each of the modder's downloadable zip links.<p>
+						<p>Click on Save</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="service-three">
+                        <h4>I am a Modder. How can I provide a package for My Mods?</h4>
+                            <div class="panel-body">
+							<p>The structure of your zip file will be more important with 7D2D Launcher support. The zip will will be extract in the top level of the game's folder, so the structure of the zip file should support placing the files in the correct locations.</p>
+								<ul>Data/Prefabs</ul>
+								<ul>mods/</ul>
+								<ul>Data/Config/blocks.xml</ul>
+							<p>Provide an easy to use hosting provider, such as MediaFire.<p>
+							<p>It is also recommended that you use zip files from software such as <a href="http://www.7-zip.org/">7 zip</a>, as opposed to other compressed files such as RAR.</p>
+                            </div>
+					</div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+		        <!-- Content Row -->
+				<h2>FAQs</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Where can I download the latest version of the 7D2D Launcher?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+								<p>The installed 7D2D Launcher will automatically check for updates when it starts. </p>
+								<p>The direct download link can be found here: <a href="https://7d2dlauncher.blob.core.windows.net/installer/7D2DLauncher.application">https://7d2dlauncher.blob.core.windows.net/installer/7D2DLauncher.application</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Will My Mods affect any of my current files or mods?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+							<p>The 7D2D Launcher will create a copy for each of My Mods, leaving the originals unchanged. This will allow you to have multiple configurations on your computer, allowing you to switch to them quickly.<p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Whoa! Just how much disk space is this going to cost?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+							<p>The base 7 Days to Die game takes a little over 3 gigs of disk space. You'll need atleast 3.5G available in order to run each new copy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Why do you feel My Mods is so important?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+							<p>We believe that My Mods will help standardize the modding community of 7 Days to Die, and provide consistent content to the players.<p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Does this tool work with every mod?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+							<p>The 7D2D Launcher was designed to deploy downloadable mod files, and install them in the correct play. If a modder structures their downloadable modded file in a standard format, the mod should play.</p>
+                            </div>
+                        </div>
+                    </div>
+                   <!-- /.panel -->
+                </div>
+                <!-- /.panel-group -->
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+		<hr>
+      <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><center>Copyright &copy; 7D2D Launcher by <a href="mailto:webmaster@7d2dlauncher.org">SphereII Software 2016</a></center></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

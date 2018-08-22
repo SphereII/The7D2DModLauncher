@@ -1,0 +1,257 @@
+<HTML>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>7D2D Launcher</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+        <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">The 7 Days To Die Launcher</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="players.html">Players</a></li>
+					<li><a href="mymods.html">My Mods</a></li>
+                    <li><a href="admins.html">Admins</a></li>
+					<li><a href="modders.html">Modders</a></li>
+					<li><a href="https://7d2dlauncher.blob.core.windows.net/installer/7D2DLauncher.application">Download</a></li>
+				</ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('images/background2.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Server Administrators</h2>
+                </div>
+            </div>
+        </div>
+
+	</header>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.php">Home</a>
+                    </li>
+                    <li class="active">Server Administrators</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+           <!-- Service Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Server Administrators Information</h2>
+            </div>
+            <div class="col-lg-12">
+
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-shield"></i> Why a 7 Days to Die Launcher?</a>
+                    </li>
+                    <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-shield"></i> What does the 7D2D Launcher do?</a>
+                    </li>
+                    <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-shield"></i> How can I add support for my server?</a>
+                    </li>
+                </ul>
+				<br>
+                <div id="myTabContent" class="tab-content">
+                     <div class="tab-pane fade active in" id="service-one">
+                        <h4>Why a 7 Days To Die Launcher?</h4>
+                        <p>The 7D2D Launcher was created to help 7 Days To Die players and server administrators keep their moddified files updated.</p>
+						<p>One of the most frustrating aspects of connecting a modded 7 Days to Die server was getting out of date, or missing, icons or requiring extra mods to play. Players would have to seek out forum posts or server administrators in order to get information about the latest versions reqiored by the server. In popular forum threads, this information could span across several pages, and not always easy to find. </p>
+						<p>With no current Steam Workshop available, users must resort to a series of forum posts across various web sites, in various formats, and confusing instructions.</p>
+						<p>The 7D2D Launcher is aimed at creating a more uniform experience to players, admins, and modders.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="service-two">
+                        <h4>What does the 7D2D Launcher do?</h4>
+						<p>The 7D2D Launcher will load an XML file, that is maintained by your server administrators. This file will contain download links and other server information. The 7D2D Launcher will display the relevant information to you, allowing you to select a server to connect to.</p>
+						
+						<p>Once you have selected an individual server, the 7D2D Launcher will make a copy of an existing copy of your 7 Days to Die, or will let you download a fresh copy from Steam. All you have to do is choose where you want to get the files from, and where you want them to go.</p>
+
+						<p>The 7D2D Launcher will keep a copy of the game seperated for each server you wish to connect too. This will allow you to quickly change servers, without worrying about changing or updating mods.</p>
+						
+						<p>The 7D2D Launcher will download each of the mods fresh each time you play, ensuring that you are using the latest version, each time you play.</p>
+                    </div>
+
+					<div class="tab-pane fade" id="service-three">
+                        <h4>How can I add support for my server?</h4>
+						<p>The 7D2D Launcher uses an XML-based configuration file to find your server information and download links. You can grab a template, update it to suite your needs, and re-upload it to a service, such as <a href="http://textuploader.com">TextUploader</a>. It is important that whatever hosting site you use, that they will allow you to update the file, without changing the URL.</p>
+						<p>Here are some examples to get you started:</p>
+						<ul>
+							<li><a href="http://textuploader.com/5btm7/raw">Empty Template with Comments</a></li>
+							<li><a href="http://textuploader.com/5btmv/raw">Empty Template with no comments</a></li>
+							<li><a href="http://textuploader.com/5bt6b/raw">Production Configuration for Forum Fanatics</a></li>
+						</ul>
+						<br>
+						<p>If you only need a single configuration, you can remove the second Server Node.</p>
+						<p>Before uploaded your XML, you can use the 7D2D Launcher to test, by going to File, Open File, and selecting the local file.</p>
+                    </div>
+				</div> <!-- tab content -->
+            </div> <!-- col-lg-12 -->
+        </div> <!-- Server Tab -->
+
+        <hr>
+
+		        <!-- Content Row -->
+				<h2>FAQs</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">What's the format of the 7D2D Launcher Server Configuration file?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+						<p>Here are some examples to get you started:"</p>
+						<ul>
+							<li><a href="http://textuploader.com/5btm7/raw">Empty Template with Comments</a></li>
+							<li><a href="http://textuploader.com/5btmv/raw">Empty Template with no comments</a></li>
+							<li><a href="http://textuploader.com/5bt6b/raw">Production Configuration for Forum Fanatics</a></li>
+						</ul>
+						<br>
+						<p>If you only need a single configuration, you can remove the second Server Node.</p>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Does the 7D2D Launcher need anything done on the server?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+							<p>No, the 7D2D Launcher runs entirely on the client side. You only need to provide a Server Configuration file to add support.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Is there a sample Server Configuration file I can use?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+								<p>Here are some examples to get you started:"</p>
+								<ul>
+									<li><a href="http://textuploader.com/5btm7/raw">Empty Template with Comments</a></li>
+									<li><a href="http://textuploader.com/5btmv/raw">Empty Template with no comments</a></li>
+									<li><a href="http://textuploader.com/5bt6b/raw">Production Configuration for Forum Fanatics</a></li>
+								</ul>
+								<br>
+								<p>If you only need a single configuration, you can remove the second Server Node.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Where can I host my Server Configuration?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+							<p>The only requirements for the location of the Server Configuration is that it's in a consistent location, that allows editing of the file without changing the URL. A free service such as <a href="http://textuploader.com">TextUploader</a> would be good. Simply make an account, and add your contents.</p>
+                            </div>
+                        </div>
+                    </div>
+					
+					                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">What's a server group?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+							<p>A Server Group is when a server administrator or administrators run one or more servers. For example, a server group could call themselves The Chaotic Clowns, with their own logo. The Chaotic Clowns could be running 5 different modded servers, ranging from vanilla, to experimental, or to a heavily modded server with SDX.</p>
+
+							<p>	A Server Group allows the launcher to group similarly administered servers under a single configuration file.</p>
+							<P>However, more than one Server Group could exist in a single configuration file, if necessary.</p>
+							
+                           
+                        </div>
+                    </div>
+					
+                    <!-- /.panel -->
+                </div>
+                <!-- /.panel-group -->
+            </div>
+            <!-- /.col-lg-12 -->
+
+		<hr>
+		
+      <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><center>Copyright &copy; 7D2D Launcher by <a href="mailto:webmaster@7d2dlauncher.org">SphereII Software 2016</a></center></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+
+</html>
